@@ -1,0 +1,441 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Roboto:wght@300;400;700&display=swap');
+
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+body{
+	font-family: "Roboto",sans-serif;
+}
+.topbar{
+	background-color: #000;
+	padding: 10px 0px;
+}
+.topbar-left-menu ul{
+	margin: 0px;
+	padding: 0px;
+}
+.topbar-left-menu ul li{
+	list-style-type: none;
+	display: inline-block;
+	margin-right: 15px;
+}
+.topbar ul li a{
+	color: white;
+}
+.topbar-right-menu ul{
+	margin: 0px;
+	padding: 0px;
+	float: right;
+}
+.topbar-right-menu ul li{
+	list-style-type: none;
+	display: inline-block;
+	margin-left: 15px;
+}
+.navigation-bar{
+	background-color: white;
+	font-family: ui-sans-serif;
+	box-shadow: 0px 2px 20px 3px #000;
+}
+.nav-icon{
+	float: left;
+	color: #000;
+	margin-left: 50px;
+    margin-top: 38px;
+}
+.nav-icon a{
+	color: #000;
+	font-size: 20px;
+}
+.side-menu {
+    width: 300px;
+    background: #eee none repeat scroll 0 0;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 99999;
+    transform: translateX(-100%);
+    transition: all ease 0.5s;
+}
+.side-taxt .closebtn{
+	/*position: absolute;*/
+    top: 0;
+    right: 25px;
+    font-size: 51px;
+    margin-left: 40px;
+    color: #000;
+}
+.side-taxt ul li a{
+	color: #000;
+}	
+.side-menu.open {
+    transform: translateX(0%);
+    color: #000;
+}
+.side-taxt.closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+.side-menu ul li{
+	border-bottom: 1px solid #e1e1e2;
+    display: block;
+    position: relative;
+    margin-top: 30px;
+}
+.navbar-left-menu ul{
+	margin: 0px;
+	padding: 0px;
+}
+.navbar-left-menu ul li{
+	list-style-type: none;
+	display: inline-block;
+	float: right;
+    padding: 39px 25px 4px;
+}
+.navbar-left-menu ul li a{
+	color: #000;
+}
+.navbar-right-menu ul li{
+	list-style-type: none;
+	display: inline-block;
+    padding: 39px 25px 4px;
+}
+.navbar-right-menu ul li a{
+	color: #000;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+.banner{
+	position: relative;
+}
+.carousel-item h5{
+	font-family: "EB Garamond",serif;
+	font-size: 40px;
+    font-style: italic;
+}
+.carousel-item p{
+	font-family: "EB Garamond",serif;
+	font-size: 20px;
+    font-style: italic;
+}
+.contain_bg{
+	width: 90%;
+    margin: 0 5%;
+    background: #fff;
+    padding: 10px;
+    box-shadow: 0px 5px 25px 0px rgba(0,0,0,0.15);
+    font-weight: 300;
+    font-family: "Roboto",sans-serif;
+    font-size: 0.9375em;
+    text-align: left;
+}
+.bg{
+	background-color: #000;
+	height: 100px;
+	width: 100%;
+	position: absolute;
+}
+#date{
+	position: relative;
+	margin-top: -50px;
+	height: 100px;
+	box-shadow: 0px 2px 5px 0px #000;
+}
+#lineborder{
+	border-right: 1px solid orange;
+}
+.checkin p{
+	padding: 10px;
+	float: left;
+}
+.date a{
+	margin-left: 10px;
+	float: left;
+	margin-top: 10px;
+	color: #000;
+}
+.text-left{
+	margin-left: 50px;
+	margin-top: 100px;
+}
+.contain-bg{
+	width: 100%;
+    float: left;
+    align-items: center;
+    padding: 40px;
+    background-size: 100%;
+    min-height: 180px;
+    position: relative;
+}
+.logo-contain{
+	/*width:100%;*/
+	height:auto;
+	/*border:solid 5px red;*/
+	position: absolute;
+	margin-top: 137px;
+	margin-left: 138px;
+}
+.box-img{
+	margin-top: 70px;
+	position: relative;
+}
+.content-img{
+    margin-top: -128px;
+    margin-left: -1206px;
+}
+.box-contain{
+	margin-top: -60px;
+	color: #c7af58;
+	font-family: "EB Garamond", serif;
+}
+.box-contain h2{
+	font-family: "EB Garamond", serif;
+	font-style: italic;
+}
+.button1{
+    padding: 12px 54px;
+    background-color: #d8be5e;
+    float: right;
+    position: relative;
+    margin-right: 165px;
+    margin-top: -98px;
+}
+.center-box1{
+    float: left;
+    margin: 80px 100px 60px 100px;
+    box-shadow: 1px 4px 13px #ccc;
+    padding: 30px 25px 20px 25px;
+}
+.oberoi-book-direct{
+	width: 20%;
+	float: left;
+}
+..oberoi-book-direct p{
+	margin-top: 10px;
+}
+.best-rate{
+	width: 16%;
+    float: left;
+    text-align: center;
+    margin: 0 2%;
+    border-left: 1px solid #e7d497;
+    border-right: 1px solid #e7d497;
+}
+.know-btn a{
+	background: #cc6c16;
+    color: #fff;
+    font-size: 13px;
+    position: relative;
+    padding: 7px 25px 7px 15px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+    display: inline-block;
+}
+.oberoi-one{
+	width: 60%;
+	float: left;
+}
+.oberoi-one-offer{
+	width: 100%;
+	float: left;
+}
+.oberoi-one.oberoi-one-offer{
+    width: 100%;
+    float: left;
+}
+.oberoi-one-offer ul {
+    width: 100%;
+    float: left;
+    list-style: none;
+}
+.oberoi-one-offer ul li {
+    width: 32.33%;
+    float: left;
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+    margin-right: 1%;
+}
+.oberoi-one-offer ul li p {
+    font-size: 14px;
+    margin-left: 10px;
+}
+.oberoi-one-offer ul li img{
+	width: 13%;
+}
+.oberoi-one-offer.knowmore-btn{
+    width: 100%;
+    float: left;
+}
+.knowmore-btn a{
+	background: #cc6c16;
+    color: #fff;
+    font-size: 13px;
+    position: relative;
+    padding: 7px 25px 7px 15px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+    display: inline-block;
+}
+.more{
+	width: 100%;
+    float: left;
+    text-align: center;
+}
+
+#chat-btn {
+    position: fixed;
+    width: 27px;
+    height: 85px;
+    left: 0;
+    top: 50%;
+    cursor: pointer;
+    margin-top: 50px;
+    z-index: 99;
+}
+.awards .title {
+    text-align: center;
+    font-size: 2.188em;
+    font-family: "EB Garamond",serif;
+    margin-bottom: 5px;
+    color: #000;
+}
+.awards p {
+    text-align: center;
+    font-family: "Roboto",sans-seri
+}
+.awards .right-section {
+    display: inline-block;
+    margin: 0 0 0px;
+    float: right;
+    text-align: right;
+    vertical-align: bottom;
+    width: 48.46%;
+}
+.awards .right-section a {
+    color: #d8741b;
+    font-family: "Roboto",sans-serif;
+    font-size: .938em;
+    text-decoration: none;
+    padding-bottom: 3px;
+    line-height: 100%;
+    position: relative;
+    padding-right: 15px;
+    font-weight: 400;
+    margin-right: 80px;
+}
+.awards .awards-container {
+    padding: 50px;
+    width: 100%;
+    float: left;
+}
+.awards .award-column {
+    width: 24%;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    min-height: 165px;
+    text-align: center;
+    border-right: 1px solid #e3bf5c;
+}
+.awards .award-column .award-animation-border {
+    width: 100%;
+    text-decoration: none;
+    color: #000;
+    font-style: bold;
+    padding: 0 20px;
+}
+.awards .awards-container .award-subtitle {
+    display: block;
+    min-height: auto;
+}
+.awards .awards-container .award-title {
+    color: #000;
+    font-size: 1.1727em;
+    font-family: "EB Garamond",serif;
+    margin: 10px 0;
+    font-weight: 600;
+}
+.awards .awards-container .award-discription {
+    font-size: 1.054em;
+    font-family: "EB Garamond",serif;
+    font-weight: 500;
+    color: #000;
+}
+
+
+
+.column li{
+	font-family: "EB Garamond",serif;
+    margin-bottom: 15px;
+    font-size: 1.054em;
+    color: #e4bf5c;
+    list-style-type: none;
+}
+.column ul a{
+	color: white;
+	font-family: "Roboto",sans-serif;
+}
+.column p{
+	color: white;
+}
+footer{
+	background: url(../img/footer-bg.jpg);
+	margin-top: 50px;
+    overflow: hidden;
+    float: left;
+    width: 100%;
+}
+.container{
+	padding: 50px 2.5%;
+    max-width: 1366px;
+    margin: 0 auto;
+}
+.container .column {
+    width: 25%;
+    float: left;
+}
+
+#scrollToTop.active {
+    opacity: 1;
+    z-index: 1;
+}
+#scrollToTop:hover {
+    transform: scale(1);
+}
+#scrollToTop {
+    width: 54px;
+    height: 54px;
+    background: url(../img/sprites-icons.png) center right;
+    background-position: -200px -259px;
+    position: fixed;
+    z-index: -1;
+    right: 10px;
+    bottom: 34px;
+    transform: scale(0.8);
+    transition: .8s all linear;
+    opacity: 0;
+    cursor: pointer;
+}
