@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>jQuery Slider</title>
+		<meta name="description" content="A jQuery slider built from scratch!">
+		<meta name="author" content="Yevgeny Getman">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<!-- jQuery -->
+		<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<script src="slider.js"></script>
+		<link rel="stylesheet" href="slider.css" >
+	</head>
+	
+	<body>
+		<div id="wrapper">
+			
+			<h1 class="text-muted">jQuery Slider</h1>
+			<div id="slide-wrap"><!-- slider --></div>
+			<span class="pull-right text-muted">* see console for real-time event log</span>
+			
+        </div>
+	</body>
+</html>
+
+<script>
+	
+	// Slider JSON
+	var obj = [
+					{
+				    
+				     "url": "https://unsplash.it/974/1200?image=435",
+				     "title": "Gone with the Wind",
+				     "description": "An epic Civil War drama focusing on the life of petulant southern belle Scarlett O'Hara (Vivien Leigh). Starting with her idyllic on a sprawling plantation, the film traces her survival through the tragic history of the South during the Civil War and Reconstruction, and her tangled love affairs with Ashley Wilkes (Leslie Howard) and Rhett Butler (Clark Gable)."
+					
+					}, 
+					
+					{
+				   
+				     "url": "https://unsplash.it/425/282?image=442",
+				     "title": "Huskies",
+				     "description": "Husky is a general name for a sled-type of dog used in northern regions, differentiated from other sled-dog types by their fast pulling style. They are an ever-changing cross-breed of the fastest dogs. The Alaskan Malamute, by contrast, is the largest and most powerful sled dog, and was used for heavier loads. Huskies are used in sled dog racing. In recent years, companies have been marketing tourist treks with dog sledges for adventure travelers in snow regions as well. Huskies are also today kept as pets, and groups work to find new pet homes for retired racing and adventure trekking dogs."
+					
+					},
+					
+					{
+				   
+				     "url": "https://unsplash.it/1500/1000?image=426",
+				     "title": "The Grand Canyon",
+				     "description": "Grand Canyon National Park, in Arizona, is home to much of the immense Grand Canyon, with its layered bands of red rock revealing millions of years of geological history. Viewpoints include Mather Point, Yavapai Observation Station and architect Mary Colters Lookout Studio and her Desert View Watchtower. Lipan Point, with wide views of the canyon and Colorado River, is a popular, especially at sunrise and sunset."
+					
+					},
+					
+					{
+				   
+				     "url": "https://unsplash.it/1024/994?image=401",
+				     "title": "Modern and Cool Interior Design Ideas for Rooms",
+				     "description": "The first picture shows an example of modern and cool room. Its a living room with white tray ceiling and gray wall. Dark wood tiles decorate the living room floor. The living room has a cool modern TV wall unit in white and gray colors. There are a few floating glass shelves on the TV wall unit. A modern TV mounts on the wall unit. Two black speakers flank the TV. "
+					
+					},
+			
+			];
+	
+	// Generate Slider
+	slider('#slide-wrap',4,1,obj);
+	
+</script>

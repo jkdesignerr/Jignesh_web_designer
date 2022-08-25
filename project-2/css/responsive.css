@@ -1,47 +1,57 @@
-/* For mobile phones: */
-[class*="col-"] {
-  width: 100%;
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	.topbar{
+		display: none;
+	}
+	.navigation-bar .navbar-left-menu {
+	    display: none;
+	}
+	.navigation-bar .navbar-right-menu{
+		display: none;
+	}
+	.navigation-bar.nav-icon{
+		margin-top: 5px;
+	}
+	.logo{
+		margin-top: -68px;
+	}
+	.banner{
+		width: 100%;
+	}
+	.carousel-inner{
+		margin-top: -50px;
+	}
+	.container-bg-light{
+		display: none;
+	}
+	.text-left{
+		margin-top: 0px;
+		margin-left: 0px;
+	}
+	.box-img{
+		display: none;
+	}
+	.center-box1{
+		width: 100%;
+   		margin-left: 0px;
+	}
+	.oberoi-book-direct
+	{
+		width: 100%;
+	}
 }
-@media only screen and (min-width: 600px) {
-  /* For tablets: */
-  .col-s-1 {width: 8.33%;}
-  .col-s-2 {width: 16.66%;}
-  .col-s-3 {width: 25%;}
-  .col-s-4 {width: 33.33%;}
-  .col-s-5 {width: 41.66%;}
-  .col-s-6 {width: 50%;}
-  .col-s-7 {width: 58.33%;}
-  .col-s-8 {width: 66.66%;}
-  .col-s-9 {width: 75%;}
-  .col-s-10 {width: 83.33%;}
-  .col-s-11 {width: 91.66%;}
-  .col-s-12 {width: 100%;}
-}
 
-@media only screen and (min-width: 768px) {
-  /* For desktop: */
-  .col-1 {width: 8.33%;}
-  .col-2 {width: 16.66%;}
-  .col-3 {width: 25%;}
-  .col-4 {width: 33.33%;}
-  .col-5 {width: 41.66%;}
-  .col-6 {width: 50%;}
-  .col-7 {width: 58.33%;}
-  .col-8 {width: 66.66%;}
-  .col-9 {width: 75%;}
-  .col-10 {width: 83.33%;}
-  .col-11 {width: 91.66%;}
-  .col-12 {width: 100%;}
-
-
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 601px) and (max-width: 767px) {
 
 }
 
-@media(max-width:575px){
-    #header{
-        width: 34%;
-    }
-    .box-img{
-        width: 100%;
-    }
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width:991px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
 }

@@ -10,20 +10,8 @@ a{
 	text-decoration: none;
 	color: #000;
 }
-img{
-	max-width:100%;
-}
 body{
 	font-family: "Roboto",sans-serif;
-}
-.row {
-     --bs-gutter-x: 1.5rem; 
-    --bs-gutter-y: 0;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: calc(-1 * var(--bs-gutter-y));
-    margin-right: calc(-.5 * var(--bs-gutter-x));
-    margin-left: calc(-.5 * var(--bs-gutter-x));
 }
 .topbar{
 	background-color: #000;
@@ -123,8 +111,8 @@ body{
 	display: inline-block;
     padding: 39px 25px 4px;
 }
-.navbar-right-menu-justify-content-end ul li a{
-	color: darkred;
+.navbar-right-menu ul li a{
+	color: #000;
 }
 .sticky {
   position: fixed;
@@ -404,7 +392,67 @@ body{
     color: #000;
 }
 
-
+/*experience page start*/
+.exp-text{
+    font-family: "EB Garamond",serif;
+    font-style: italic;
+}
+.exp-text p{
+    font-family: arial;
+    line-height: 23px;
+}
+.share{
+    float: right;
+    margin-top: -90px;
+    margin-right: -93px;
+}
+.share a{
+    font-family: arial;
+    font-style: normal;
+    color: #d8741b;
+}
+.Featured-sec{
+    float: left;
+}
+.heading-sec{
+    font-family: "EB Garamond",serif;
+    font-style: italic;
+}
+.heading-sec-text h2{
+    font-family: "EB Garamond",serif;
+    font-style: italic;
+    margin-top: 10px;
+}
+.heading-sec-text{
+    font-size: 15PX;
+}
+.left-img{
+    width: 50%;
+}
+.btn-ex{
+    color: #66b6d8;
+}
+.Featured-right-sec{
+    float: left;
+}
+.heading-sec{
+    font-family: "EB Garamond",serif;
+    font-style: italic;
+}
+.heading-sec-text h2{
+    font-family: "EB Garamond",serif;
+    font-style: italic;
+    margin-top: 10px;
+}
+.heading-sec-text{
+    font-size: 15PX;
+}
+.left-img{
+    width: 50%;
+}
+.btn-ex{
+    color: #66b6d8;
+}
 
 
 footer{
@@ -440,95 +488,4 @@ footer{
 .column ul a:hover{
 	color: #e4bf5c;
 	transform: scale(1);
-}
-#scrollToTop.active {
-    opacity: 1;
-    z-index: 1;
-}
-#scrollToTop:hover {
-    transform: scale(1);
-}
-#scrollToTop {
-    width: 54px;
-    height: 54px;
-    background: url(../img/sprites-icons.png) center right;
-    background-position: -200px -259px;
-    position: fixed;
-    z-index: -1;
-    right: 10px;
-    bottom: 34px;
-    transform: scale(0.8);
-    transition: .8s all linear;
-    opacity: 0;
-    cursor: pointer;
-}
-
-/*experience page start*/
-.exp-text{
-	font-family: "EB Garamond",serif;
-    font-style: italic;
-    margin-top: 50px;
-}
-.exp-text p{
-	font-family: arial;
-	line-height: 23px;
-}
-.share{
-	float: right;
-}
-.share a{
-	font-family: arial;
-	font-style: normal;
-    color: #d8741b;
-}
-/*.Featured-sec{
-	float: left;
-}*/
-.heading-sec{
-	font-family: "EB Garamond",serif;
-    font-style: italic;
-}
-.heading-sec-text h2{
-	font-family: "EB Garamond",serif;
-    font-style: italic;
-    margin-top: 10px;
-}
-.heading-sec-text{
-	font-size: 15PX;
-}
-.btn-ex{
-	color: #66b6d8;
-}
-.right-bar{
-	float: left;
-}
-.heading h1{
-	font-family: "EB Garamond",serif;
-    font-style: italic;
-}
-.heading-2 p{
-	float: left;
-	position: 10px;
-	padding: 0px 39px 0px 0px;
-}
-.bolx-img{
-	float: left;
-}
-.golf-img{
-	margin-top: 50px;
-}
-.golf-img h2{
-	font-family: "EB Garamond",serif;
-    font-style: italic;	
-    margin-top: 15px;
-}
-.feature-exp-right-sec .row{
-	margin-bottom:25px;
-}
-.feature-exp-right-sec h3{
-	font-family: "EB Garamond",serif;
-    font-style: italic;
-}
-.the{
-	color: #66b6d8;
 }
