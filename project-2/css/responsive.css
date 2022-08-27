@@ -1,3 +1,7 @@
+*{
+	box-sizing: border-box;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 	.topbar{
@@ -12,6 +16,10 @@
 	.navigation-bar.nav-icon{
 		margin-top: 5px;
 	}
+	.nav-icon{
+		margin-top: 40px;
+    	margin-left: 20px;
+	}
 	.logo{
 		margin-top: -68px;
 	}
@@ -25,20 +33,105 @@
 		display: none;
 	}
 	.text-left{
-		margin-top: 0px;
+		margin-top: 50px;
 		margin-left: 0px;
 	}
 	.box-img{
 		display: none;
 	}
 	.center-box1{
-		width: 100%;
-   		margin-left: 0px;
+		margin-left: 13px;
+    	margin-right: 13px;
+    	margin-top: -100px;
 	}
 	.oberoi-book-direct
 	{
 		width: 100%;
 	}
+	.oberoi-book-direct p{
+		margin-top: 20px;
+	}
+	.slide-img{
+		display: none;
+	}
+	.slider{
+		display: none;
+	}
+	#wrapper{
+		display: none;
+	}
+	.best-rate{
+		width: 100%;
+	    padding: 20px 0;
+	    margin: 20px 0;
+	    border-left: none;
+	    border-right: none;
+	    border-top: 1px solid #e7d497;
+	    border-bottom: 1px solid #e7d497;
+	}
+	.best-rate img{
+		width: 15%;
+	}
+	.oberoi-one .oberoi-one-offer ul li{
+		width: 100%;
+	}
+	.oberoi-one-offer ul li{
+		width: 100%;
+    	display: block;
+   		text-align: center;
+    	margin-right: 0;
+    	margin-top: 20px;
+    	margin-left: 40px;
+	}
+	.oberoi-one-offer ul li img{
+		width: 29%;
+	}
+	.knowmore-btn{
+		float: right;
+    	margin-right: -20px;
+	}
+	.right-section a{
+		width: 100%;
+    	text-align: center;
+    	float: left;
+    	margin-left: -93px;
+	}
+	.awards-container-awards-slider .award-column{
+		width: 100%;
+    	top: 50px;
+	}
+	.mobile-cta{
+	    position: fixed;
+	    display: block;
+	    width: 100%;
+	    bottom: 0;
+	    left: 0;
+	    z-index: 998;
+	}
+	.mobile-cta a{
+		padding: 15px 8px;
+		width: 50%;
+		color: #fff;
+		font-size: 0.938em;
+		display: block;
+		float: left;
+		text-align: center;
+		text-decoration: none;
+	}
+	#scrollToTop {
+    	bottom: 70px;
+	}
+	.mobile-cta a.chat-btn1{
+    	background: #000a48;
+	}
+	.mobile-cta a.booking {
+    	background: #d8741b;
+	}
+	footer .container .column {
+    	width: 48%;
+    	margin-right: -10px;
+	}
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */

@@ -403,9 +403,12 @@ body{
     font-weight: 500;
     color: #000;
 }
-
-
-
+.award-subtitle{
+	
+}
+.mobile-cta{
+	display: none;
+}
 
 footer{
 	background: url(../img/footer-bg.jpg);
@@ -532,3 +535,17 @@ footer{
 .the{
 	color: #66b6d8;
 }
+
+
+
+
+
+/*experience page end*/
+
+/*content css page start*/
+
+.banner{
+	width: 100%;
+}
+
+/*content css page end*/
