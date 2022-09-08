@@ -234,7 +234,7 @@ body{
     background-color: #d8be5e;
     float: right;
     position: relative;
-    margin-right: 165px;
+    margin-right: 440px;
     margin-top: -98px;
 }
 .center-box1{
@@ -544,8 +544,61 @@ footer{
 
 /*content css page start*/
 
-.banner{
-	width: 100%;
+.vv{
+  padding: 2%;
+}
+ .contact_us{
+   font-family: "EB Garamond",serif;
+    font-size: 2.5em;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 100%;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    padding: 40px;
+ }
+
+ @media screen and (max-height: 580px) {
+  #contact_us{
+  	font-size: 20px ;
+  	
+  }
+}
+.nothing{
+   --bs-gutter-x: 0%;
+}
+.border_{
+  border-bottom:1px solid silver ;
+}
+.padding_oberoimenu{
+  padding: 5%;
+  display: none;
+}
+.from_in_pdding{
+	padding-right:5% ;
+	padding-left: 5%;
+}
+.query_from{
+  background-color: none;
+}
+.reset_btn1{
+  color: #66b6d8;
+  font-size: 20px;
+}
+.submit_btn1{
+  color: #d8741b;
+  font-size: 20px;
+}
+.boder_none ul li{
+  border: none;
+  background-color: transparent;
+}
+.card_1{
+  --bs-gutter-x: 0%;
+  padding: 50px;
+}
+.mr{
+  margin-left: 5%;
 }
 
 /*content css page end*/

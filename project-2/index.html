@@ -13,7 +13,7 @@
 		<link rel="stylesheet" href="Responsive-Dynamic-jQuery-Content-Slider-Plugin-slider-js/slider.css">
 		<link rel="stylesheet" href="css/slider.css">
 		<link rel="stylesheet" type="text/css" href="css/slick.css">
-	  <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+	 	<link rel="stylesheet" type="text/css" href="css/slick-theme.css">
 
 	</head>
 	<body>
@@ -61,7 +61,7 @@
 							  				<li><a href="#">Oberoi One</a></li>
 							  				<li><a href="Destinations.html">Destinations</a></li>
 							  				<li><a href="Special-offers.html">Special offers</a></li>
-							  				<li><a href="#">Experiences</a></li>
+							  				<li><a href="Experiences.html">Experiences</a></li>
 							  				<li><a href="#">The O&MO Alliance</a></li>
 							  				<li><a href="#">Best Rate Guarantee</a></li>
 							  				<li><a href="#">Oberoi Select</a></li>
@@ -413,6 +413,9 @@
 		<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 		<script src="js/bootstrap.min.js"></min></script>
+		<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+		<script type="text/javascript" src="slick/slick.min.js"></script>
 	<script>
 	$(document).ready(function(){
 	  $(".nav-icon").click(function(){
@@ -422,6 +425,24 @@
 	    $(".side-menu").removeClass("open");
 	  });
 	});
+	</script>
+
+	<script>
+		 $('.slider-for').slick({
+			  slidesToShow: 1,
+			  slidesToScroll: 1,
+			  arrows: false,
+			  fade: true,
+			  asNavFor: '.slider-nav'
+			});
+			$('.slider-nav').slick({
+			  slidesToShow: 3,
+			  slidesToScroll: 1,
+			  asNavFor: '.slider-for',
+			  dots: true,
+			  centerMode: true,
+			  focusOnSelect: true
+		});
 	</script>
 
 	<script>

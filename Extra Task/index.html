@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Shiftit</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+	
+</head>
+<body>
+<div id="wrapper">
+	<div class="container-fluid">
+		<div class="loginform">
+			<div class="row">
+				<div class="col-md-6 col-12 imageblock">
+					<div class="find-image">
+						<img src="images/find-care-img.jpg" width="855" height="954">
+					</div>
+				</div>
+				<div class="col-md-6 col-12 loginformblock">
+				<div class="loginform-details">
+					<div class="logo">
+						<img src="images/logo.jpg" alt="shiftit logo" width="195" height="67">
+					</div>
+					<div class="login-content">
+						<h1>Create Account</h1>
+						<p>Lorem ipsum dolor sit amet consectetur adipiscig elit sed do eiusmod incididunt ut labore</p>
+					</div>
+					<form>
+						<div class="form-group">
+							<div class="form-floating">
+								<input type="email" class="form-control" id="floatingInput" placeholder="shiftit@gmail.com" required="">
+								<label for="floatingInput">Email</label>
+							</div>
+							<div class="form-floating">
+								<input type="password" class="form-control" id="floatingPassword" placeholder="Password" required="">
+								<label for="floatingPassword">Password</label>
+								<span toggle="#floatingPassword" class="fa-solid fa-eye toggle-password"></span>
+							</div>
+							<button type="submit" class="btn">Continue</button>
+							<div class="form-check">
+								<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+								<label class="form-check-label" for="flexCheckDefault">I agree with <a href="#">terms</a> and <a href="">privacy</a></label>
+							</div>
+						</div>
+					</form>
+					<p class="account-info">Already have an account? <a href="#">login</a></p>
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<script type="text/javascript">
+$(".toggle-password").click(function() {
+
+  $(this).toggleClass("fa-eye fa-eye-slash");
+  var input = $($(this).attr("toggle"));
+  if (input.attr("type") == "password") {
+    input.attr("type", "text");
+  } else {
+    input.attr("type", "password");
+  }
+});
+</script>
+
+</body>
+</html>
